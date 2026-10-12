@@ -2,3 +2,7 @@
 
 /* Original hand-drawn marks remain in the atlas. New purchases get the same diagonal gesture. */
 .card.bought .picture:not(.original-marked)::after,.preview.bought:not(.original-marked)::after{content:'';position:absolute;z-index:2;width:128%;height:3px;left:-14%;top:50%;background:#514c45;border-radius:70% 40% 55% 35%;transform:rotate(46deg);box-shadow:0 1px 0 #514c4550;pointer-events:none}.preview{position:relative}.status.owned:disabled{opacity:1;cursor:default}.checkbox input:disabled{opacity:1}
+
+dialog{max-height:90vh;max-height:90dvh}dialog.legacy-dialog[open]{position:fixed;top:50%;left:50%;margin:0;transform:translate(-50%,-50%);z-index:20;box-shadow:0 0 0 100vmax #392e265e}
+
+.bottom{justify-content:space-around}.bottom .add{min-width:150px}
