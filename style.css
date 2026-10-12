@@ -6,3 +6,5 @@
 dialog{max-height:90vh;max-height:90dvh}dialog.legacy-dialog[open]{position:fixed;top:50%;left:50%;margin:0;transform:translate(-50%,-50%);z-index:20;box-shadow:0 0 0 100vmax #392e265e}
 
 .bottom{justify-content:space-around}.bottom .add{min-width:150px}
+
+.wish{display:block;margin:6px auto 0;border:1px solid transparent;border-radius:16px;background:none;color:var(--soft);font-size:10px;min-height:30px;padding:5px 4px;white-space:nowrap}.wish.wanted{color:#a86d70;border-color:#ddc3c2;background:#f3e6e4}@media(min-width:550px){.wish{font-size:12px}}
